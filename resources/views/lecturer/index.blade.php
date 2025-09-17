@@ -54,7 +54,7 @@
           <div class="text-center 2xl:mb-10 mb-5">
             <h4 class="font-bold text-2xl text-gray-800 mb-2">Lecturer Login</h4>
             <div class="text-gray-600 text-base">
-              Please enter your credentials below to login as <i>Lecturer</i>.
+              Please enter your credentials below to login  as <i>Lecturer</i>.
             </div>
             @include('layouts.messages')
           </div>
@@ -85,7 +85,7 @@
               </div>
               <a class="text-sm text-slate-800 dark:text-slate-400 leading-6 font-medium" href="{{route('lecturer.forgot_password.get')}}">Forgot Password?</a>
             </div>
-            <button class="btn bg-gradient-to-r from-orange-500 to-green-600 hover:from-orange-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform transition hover:scale-105 block w-full text-center">Login</button>
+            <button class="btn font-semibold py-3 px-6 rounded-lg shadow-lg transform transition hover:scale-105 block w-full text-center" style="background-color: #16a34a !important; color: white !important; border: none !important;" onmouseover="this.style.backgroundColor='#15803d'" onmouseout="this.style.backgroundColor='#16a34a'">Login</button>
           </form>
 
         </div>

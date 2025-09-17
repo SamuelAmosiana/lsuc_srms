@@ -85,7 +85,7 @@
               </div>
               <a class="text-sm text-slate-800 dark:text-slate-400 leading-6 font-medium" href="{{route('lecturer.admin.forgot_password.get')}}">Forgot Password?</a>
             </div>
-            <button class="btn bg-gradient-to-r from-orange-500 to-green-600 hover:from-orange-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transform transition hover:scale-105 block w-full text-center">Login</button>
+            <button class="btn font-semibold py-3 px-6 rounded-lg shadow-lg transform transition hover:scale-105 block w-full text-center" style="background-color: #16a34a !important; color: white !important; border: none !important;" onmouseover="this.style.backgroundColor='#15803d'" onmouseout="this.style.backgroundColor='#16a34a'">Login</button>
           </form>
 
         </div>
